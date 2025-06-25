@@ -1,0 +1,107 @@
+body{
+	background: linear-gradient(#3D5A80, #98C1D9);
+}
+
+header{
+	color:whitesmoke;
+	font-size: 70%;
+	font-family: arial;
+	text-align: center;
+	background-image:url("galaxy.jpg");
+	border-radius: 10px;
+	background-size: cover ;
+	padding: 2px;
+	margin-bottom: 10px;
+	box-shadow: 0 5px 10px rgba(1,1,1,0.5);
+	position: sticky;
+	top: -10px;
+}
+nav a{
+	color: black;
+	text-decoration:none;
+}
+
+nav{
+	background-color:white;
+	opacity: 0.7;
+	border-radius: 5px;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 4px;
+	margin: 4px;
+}
+
+a:hover{
+	color: dodgerblue;
+	padding: 15px;
+}
+
+nav:hover{
+	opacity: 1;
+}
+.qt{
+	font-family: arial;
+	font-size: 100%;
+	text-align: center;
+	color: black;
+	padding: 10px;
+	background: linear-gradient(cornsilk,blanchedalmond);
+	border-radius: 8px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	box-shadow: 0 5px 10px rgba(1,1,1,0.5);
+}
+
+main{
+	display:flex;
+}
+
+.abt{
+	font-family: arial;
+	text-align: justify;
+	color: black;
+	padding: 2px;
+	width: 70%;
+	background: linear-gradient(ghostwhite,lavender);
+	border-radius: 8px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	box-shadow: 0 5px 10px rgba(1,1,1,0.5);
+	padding: 10px;
+	height: 430px;
+	overflow: auto;
+}
+
+.ed{
+	font-family: arial;
+	padding: 10px;
+	background: linear-gradient(honeydew, azure);
+	border-radius: 8px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	box-shadow: 0 5px 10px rgba(1,1,1,0.5);
+	height: 200px;
+	overflow: auto;
+}
+
+.exp{
+	font-family: arial;	
+	padding: 10px;
+	background: linear-gradient(lavenderblush, mistyrose);
+	border-radius: 8px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	box-shadow: 0 5px 10px rgba(1,1,1,0.5);
+	height: 200px;
+	overflow: auto;
+}
+
+footer{
+	color: white;
+	font-family: arial;
+	text-align: center;
+}
+
+h3{
+	
+}
